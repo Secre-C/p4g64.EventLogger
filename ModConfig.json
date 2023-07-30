@@ -3,16 +3,26 @@
   "ModName": "P4G Event Logger",
   "ModAuthor": "SecreC.",
   "ModVersion": "1.0.0",
-  "ModDescription": "Prints event commands from pm2 and pm3 as they're run",
+  "ModDescription": "Prints event commands from pm2 and pm3 as they\u0027re run",
   "ModDll": "p4g64.EventLogger.dll",
   "ModIcon": "Preview.png",
   "ModR2RManagedDll32": "x86/p4g64.EventLogger.dll",
   "ModR2RManagedDll64": "x64/p4g64.EventLogger.dll",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": null,
+  "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "p4g64.EventLogger.ReleaseMetadata.json",
-  "PluginData": {},
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "Secre-C",
+      "RepositoryName": "p4g64.EventLogger",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    }
+  },
   "IsUniversalMod": false,
   "ModDependencies": [
     "Reloaded.Memory.SigScan.ReloadedII",
